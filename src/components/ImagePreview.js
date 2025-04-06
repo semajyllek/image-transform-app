@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 
 /**
- * ImagePreview component for displaying original and processed images
+ * ImagePreview component for displaying original and processed images side by side
  * 
  * @param {Object} props - Component props
  * @param {Image} props.originalImage - The original image object
@@ -19,10 +19,11 @@ const ImagePreview = ({
 }) => {
   
   return (
-    <div className="w-full md:w-2/3">
-      <div className="flex flex-wrap gap-4 justify-center">
+    <div className="w-full">
+      {/* Side-by-side image display */}
+      <div className="flex flex-col md:flex-row gap-4 mb-4">
         {/* Original Image Card */}
-        <div className="bg-white rounded-lg shadow-lg p-4 mb-6">
+        <div className="bg-white rounded-lg shadow-lg p-4 flex-1">
           <h2 className="text-xl font-bold mb-4">Original Image</h2>
           <div className="w-full overflow-auto">
             {/* Hidden canvas used for image data processing */}
@@ -37,7 +38,7 @@ const ImagePreview = ({
               <img 
                 src={originalImage.src} 
                 alt="Original" 
-                className="max-w-full h-auto" 
+                className="max-w-full h-auto mx-auto" 
               />
             ) : (
               <div className="flex items-center justify-center border border-gray-300 h-64">
@@ -48,7 +49,7 @@ const ImagePreview = ({
         </div>
         
         {/* Processed Image Card */}
-        <div className="bg-white rounded-lg shadow-lg p-4 mb-6">
+        <div className="bg-white rounded-lg shadow-lg p-4 flex-1">
           <h2 className="text-xl font-bold mb-4">Processed Image</h2>
           <div className="w-full overflow-auto">
             {/* Hidden canvas used for processed image data */}
@@ -63,7 +64,7 @@ const ImagePreview = ({
               <img 
                 src={processedImage} 
                 alt="Processed" 
-                className="max-w-full h-auto" 
+                className="max-w-full h-auto mx-auto" 
               />
             ) : (
               <div className="flex items-center justify-center border border-gray-300 h-64">
