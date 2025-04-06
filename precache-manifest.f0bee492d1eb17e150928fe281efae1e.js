@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca874c417c7730d77f171e565971a70c",
+    "revision": "e7454527102d6ed027cadfc4fe9eda11",
     "url": "/image-transform-app/index.html"
   },
   {
-    "revision": "70ba05bfaada8bd3b401",
+    "revision": "69a70f0fb96659eb275c",
     "url": "/image-transform-app/static/css/main.85f62732.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/image-transform-app/static/js/2.28aca772.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "70ba05bfaada8bd3b401",
-    "url": "/image-transform-app/static/js/main.3d12fa0b.chunk.js"
+    "revision": "69a70f0fb96659eb275c",
+    "url": "/image-transform-app/static/js/main.8e43b00c.chunk.js"
   },
   {
     "revision": "e5ee9c289f9703dee455",

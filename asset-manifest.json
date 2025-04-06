@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/image-transform-app/static/css/main.85f62732.chunk.css",
-    "main.js": "/image-transform-app/static/js/main.3d12fa0b.chunk.js",
-    "main.js.map": "/image-transform-app/static/js/main.3d12fa0b.chunk.js.map",
+    "main.js": "/image-transform-app/static/js/main.8e43b00c.chunk.js",
+    "main.js.map": "/image-transform-app/static/js/main.8e43b00c.chunk.js.map",
     "runtime-main.js": "/image-transform-app/static/js/runtime-main.6f289f30.js",
     "runtime-main.js.map": "/image-transform-app/static/js/runtime-main.6f289f30.js.map",
     "static/js/2.28aca772.chunk.js": "/image-transform-app/static/js/2.28aca772.chunk.js",
     "static/js/2.28aca772.chunk.js.map": "/image-transform-app/static/js/2.28aca772.chunk.js.map",
     "index.html": "/image-transform-app/index.html",
-    "precache-manifest.3865b82f88aa64b75fc0508712c86c96.js": "/image-transform-app/precache-manifest.3865b82f88aa64b75fc0508712c86c96.js",
+    "precache-manifest.f0bee492d1eb17e150928fe281efae1e.js": "/image-transform-app/precache-manifest.f0bee492d1eb17e150928fe281efae1e.js",
     "service-worker.js": "/image-transform-app/service-worker.js",
     "static/css/main.85f62732.chunk.css.map": "/image-transform-app/static/css/main.85f62732.chunk.css.map",
     "static/js/2.28aca772.chunk.js.LICENSE.txt": "/image-transform-app/static/js/2.28aca772.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6f289f30.js",
     "static/js/2.28aca772.chunk.js",
     "static/css/main.85f62732.chunk.css",
-    "static/js/main.3d12fa0b.chunk.js"
+    "static/js/main.8e43b00c.chunk.js"
   ]
 }
